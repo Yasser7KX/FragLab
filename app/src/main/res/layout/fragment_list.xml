@@ -1,10 +1,12 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="apps.mobile.ths.fragmentlistexample.FragmentList">
+    android:layout_height="match_parent" tools:context="com.twistedx.fragmentdemo.DetailFragment">
+
 
     <!-- TODO: Update blank fragment layout -->
     <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-        android:text="hello blank fragemtn" />
+        android:text="hello frag" />
+
+
 
 </FrameLayout>

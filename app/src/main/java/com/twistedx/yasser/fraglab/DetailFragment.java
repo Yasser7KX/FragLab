@@ -1,12 +1,13 @@
 package com.twistedx.yasser.fraglab;
 
-
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+
+import com.twistedx.yasser.fraglab.R;
 
 
 /**
@@ -23,13 +24,13 @@ public class DetailFragment extends Fragment {
 
     public void setPosition(int p) {
         position = p;
-        if (p == 0) image = R.drawable.gtxtitan;
-        if (p == 1) image = R.drawable.url;
-        if (p == 2) image = R.drawable.pciessd;
-        if (p == 3) image = R.drawable.power;
-        if (p == 4) image = R.drawable.cse;
-        if (p == 5) image = R.drawable.ram;
-        if (p == 6) image = R.drawable.rog;
+        if (p == 0) image = R.drawable.cse;
+        if (p == 1) image = R.drawable.furyx;
+        if (p == 2) image = R.drawable.giph;
+        if (p == 3) image = R.drawable.lck;
+        if (p == 4) image = R.drawable.ram;
+        if (p == 5) image = R.drawable.gtxtitan;
+        if (p == 6) image = R.drawable.url;
     }
 
     @Override

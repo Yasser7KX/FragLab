@@ -1,6 +1,4 @@
 package com.twistedx.yasser.fraglab;
-
-
 import android.app.Activity;
 import android.app.ListFragment;
 import android.net.Uri;
@@ -35,7 +33,7 @@ public class FragmentList extends ListFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        someColors = new String[]{"GeForce Titan X", "Core I7 Skylake", "ROG Motherboard", "Intel 750 SSD", "Corsair Liquid Cooler", "CM Case", "Windows 10"};
+        someColors = new String[]{"Apple", "Orange", "Bannana", "Apple Juice", "Coke", "Potatoe Chips", "Potatoes"};
         ArrayList<String> colorArrayList = new ArrayList<String>();
         colorArrayList.addAll(Arrays.asList(someColors));
         listAdapter1 = new ArrayAdapter<String>(inflater.getContext(), android.R.layout.simple_list_item_1, colorArrayList);
