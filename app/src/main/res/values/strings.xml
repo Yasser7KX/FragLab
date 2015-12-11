@@ -1,6 +1,117 @@
 <resources>
-    <string name="app_name">FragLab</string>
+    <string name="app_name">Fragment Demo</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="ComputerParts">
+        <item>Computer Case</item>
+        <item>Intel Core i7 </item>
+        <item>AMD Radeon Fury X</item>
+        <item>Corsair Liquid Cooler</item>
+        <item>Asus ROG motherboard</item>
+        <item>Intel 730 PCIe ssd</item>
+        <item>Evga Power Supply</item>
+        <item>Corsair Vengeance 128Gb ram</item>
+        <item>Intel 750 ssd</item>
+        <item>Nvdia GeForce Titan X</item>
+    </string-array>
+
+    <string-array name="Foods">
+        <item>Apple Juice</item>
+
+        <item>Apples</item>
+
+        <item>Banana</item>
+
+        <item>Chips</item>
+
+        <item>Cocacola</item>
+
+        <item>Oranges</item>
+
+        <item>Potatoes</item>
+
+        <item>Spaghetti</item>
+
+        <item>Sprite</item>
+
+        <item>Water</item>
+
+    </string-array>
+
+    <string-array name="Phones">
+        <item>Galaxy S6 Edge</item>
+
+        <item>HTC M9</item>
+
+        <item>iPhone 6s</item>
+
+        <item>Phone</item>
+
+    </string-array>
+
+    <string-array name="Tablets">
+        <item>iPad Air 2</item>
+
+        <item>iPad mini 4</item>
+
+        <item>Surface Pro 4</item>
+
+    </string-array>
+
+    <string-array name="Watches">
+        <item>Apple Watch</item>
+
+        <item>Gear S2</item>
+
+        <item>Watch</item>
+
+    </string-array>
+
+
+    <string name="smartphones">Smartphones</string>
+    <string name="title_activity_i_phone6s">iPhone6s</string>
+
+
+    <string-array name="products">
+        <item>Apple Juice</item>
+        <item>Apples</item>
+        <item>Apple Watch</item>
+        <item>Banana</item>
+        <item>Chips</item>
+        <item>Cocacola</item>
+        <item>Computer Case</item>
+        <item>Intel Core i7 </item>
+        <item>AMD Radeon Fury X</item>
+        <item>Galaxy S6 Edge</item>
+        <item>Gear S2</item>
+        <item>HTC M9</item>
+        <item>iPad Air 2</item>
+        <item>iPad mini 4</item>
+        <item>iPhone 6s</item>
+        <item>Corsair Liquid Cooler</item>
+        <item>Asus ROG motherboard</item>
+        <item>Oranges</item>
+        <item>Intel 730 PCIe ssd</item>
+        <item>Phone</item>
+        <item>Potatoes</item>
+        <item>Evga Power Supply</item>
+        <item>Corsair Vengeance 128Gb ram</item>
+        <item>Spaghetti</item>
+        <item>Sprite</item>
+        <item>Intel 750 ssd</item>
+        <item>Surface Pro 4</item>
+        <item>Nvdia GeForce Titan X</item>
+        <item>Watch</item>
+        <item>Water</item>
+
+
+    </string-array>
+    <string name="title_activity_cart">Cart</string>
+    <string name="action_share">Share</string>
 </resources>

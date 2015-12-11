@@ -1,9 +1,6 @@
 package com.twistedx.yasser.fraglab;
-import android.app.Activity;
 import android.app.ListFragment;
-import android.net.Uri;
 import android.os.Bundle;
-import android.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,13 +10,12 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 
 public class FragmentList extends ListFragment {
 
     private ArrayAdapter<String> listAdapter1;
-    private String[] someColors;
+    private String[] someCategories;
     private String TAG = "FragmentList";
 
     public FragmentList() {
@@ -33,10 +29,10 @@ public class FragmentList extends ListFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        someColors = new String[]{"Apple", "Orange", "Bannana", "Apple Juice", "Coke", "Potatoe Chips", "Potatoes"};
-        ArrayList<String> colorArrayList = new ArrayList<String>();
-        colorArrayList.addAll(Arrays.asList(someColors));
-        listAdapter1 = new ArrayAdapter<String>(inflater.getContext(), android.R.layout.simple_list_item_1, colorArrayList);
+        someCategories = new String[]{"Computer Parts", "Food", "Phones", "Tablets", "Watches"};
+        ArrayList<String> categoryArrayList = new ArrayList<String>();
+        categoryArrayList.addAll(Arrays.asList(someCategories));
+        listAdapter1 = new ArrayAdapter<String>(inflater.getContext(), android.R.layout.simple_list_item_1, categoryArrayList);
         setListAdapter(listAdapter1);
         // Inflate the layout for this fragment
         return super.onCreateView(inflater, container, savedInstanceState);

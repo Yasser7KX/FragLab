@@ -3,12 +3,16 @@
     android:layout_height="match_parent" tools:context="com.twistedx.fragmentdemo.DetailFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <ImageView
-        android:layout_height="fill_parent"
+    <ListView
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
         android:layout_width="wrap_content"
-        android:layout_marginTop="100dp"
-        android:id="@+id/image"
-        android:src="@drawable/giph"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/secondList"
+        android:fastScrollEnabled="true"
+        android:fastScrollAlwaysVisible="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
 
 
 </FrameLayout>
